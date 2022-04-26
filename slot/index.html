@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Elements</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <h2>Soy el titulo fuera del component</h2>
-   
+
     <my-element>
-        Soy un texto que esta dentro de la etiqueta my-element
+      <span slot="title">
+        Soy un texto que esta dentro de la etiqueta my-element, soy más texto
+      </span>
+      <span slot="body">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+        recusandae cumque praesentium facere alias. Sunt, voluptatibus iure?
+        Non, molestiae doloribus alias quibusdam veritatis explicabo, quidem
+        autem deleniti laborum modi ipsa.
+      </span>
     </my-element>
     <script type="module" src="./my-element.js"></script>
-</body>
+  </body>
 </html>
