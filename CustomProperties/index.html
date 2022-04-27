@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        my-element {
+            --primary-color: #ff0000;
+            --secondary-color: #00ff00;
+
+        }
+        .segundo {
+            --primary-color: pink;
+            --secondary-color: orange;
+        }
+        .tercero {
+            --primary-color: blue;
+            --secondary-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <my-element>
+        <span slot="title">Soy un texto del componente</span>
+        <span class="text" slot="parrafo">Soy el parrafo del componente</span>
+    </my-element>
+    <my-element class="segundo">
+        <span slot="title">Soy un texto del componente</span>
+        <span class="text" slot="parrafo">Soy el parrafo del componente</span>
+    </my-element>
+    <my-element class="tercero">
+        <span slot="title" class="tercero">Soy un texto del componente</span>
+        <span class="text" slot="parrafo">Soy el parrafo del componente</span>
+    </my-element>
+   
+
+    <script type="module" src="./my-element.js"></script>
+</body>
+</html>
