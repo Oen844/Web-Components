@@ -48,6 +48,9 @@ class myElement extends HTMLElement {
                     max-width: 100%;
                     
                 }
+                :host-context(article.card) article {
+                    text-align: center;
+                }
             </style>
         `;
     }
