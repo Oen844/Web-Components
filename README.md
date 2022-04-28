@@ -6,3 +6,15 @@ Components que te permitan ahorrar tiempo de desarrollo.
 Utilizar datos dinámicos dentro de los web components.
 Custom elements utilizando JavaScript puro sin frameworks ni librerías.
 Comprender las características de las APIs utilizadas para web components.
+
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/IMvXoPB.png)
+
+![App Screenshot](https://i.imgur.com/C0e9ZcQ.png)
+
+## 🔗 Link
+
+[Web Demo](https://oen844.github.io/Web-Components/)
+
+
