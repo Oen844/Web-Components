@@ -1,1 +1,1 @@
-import "./componentes/product-card.js";
+import "https://oen844.github.io/Web-Components//componentes/product-card.js";
